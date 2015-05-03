@@ -9,11 +9,11 @@ Read the instructions carefully.
 * Code for Sender is available in _Sender_ folder
 * Make changes to the following files only
 
-****
+----
 aws.credentials.json +
 whoami.txt +
 sqsendpointdetails.txt
-****
+----
 
 * _aws.credentials.json_ will contain your accesskey, secretid and the region
 * _region_ specifies the code of the region where you have configured SQS queue. For example if you have configured it in _Oregon_, the region will be *us-west-2*.
@@ -27,11 +27,11 @@ sqsendpointdetails.txt
 * Code for Receiver is available in _Receiver_ folder
 * Make changes to the following files only
 
-****
+----
 AWSCredentials.properties +
 whoami.txt +
 web.xml
-****
+----
 
 * _AWSCredentials.properties_ present in _src_ folder will contain your accesskey and secretid.
 * _whoami.txt_ present in _WebContent_ folder will have your name and BITS idnumber

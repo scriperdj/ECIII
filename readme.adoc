@@ -50,7 +50,7 @@ web.xml
     </init-param>
   </servlet>
 ----
-* You need to replace YOUR SQS ENDPOINT GOES HERE_ in <param-value> element with your SQS Endpoint.
+* You need to replace _YOUR SQS ENDPOINT GOES HERE_ in _<param-value>_ element with your SQS Endpoint.
 
 == Some Sample Screen shots after the SQS is configured and applications are deployed in EB
 

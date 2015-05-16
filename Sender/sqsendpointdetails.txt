@@ -1,1 +1,1 @@
-SQS ENDPOINT ADDRESS
+https://sqs.us-west-2.amazonaws.com/977841487208/Mqueue

@@ -29,7 +29,7 @@ public class ReceiverServlet extends HttpServlet {
         } catch (Exception e) {
         	response.getWriter().println("Cannot load the credentials from the credential profiles file. " +
                     "Please make sure that your AwsCredentials.properties file is at the correct " +
-                    "location (src folder), and is in valid format: " + e.getMessage());
+                    "location (src folder), and is in valid format:  " + e.getMessage());
         	return;
         }
 
@@ -41,8 +41,8 @@ public class ReceiverServlet extends HttpServlet {
             List<Message> messages = sqs.receiveMessage(receiveMessageRequest).getMessages();
             String output = "";
             for (Message message : messages) {
-                output += message.getMessageId() + “;”;
-                output += message.getBody() + “;”;
+                output += message.getMessageId() + ";";
+                output += message.getBody() + ";";
             }
             response.getWriter().println(output);
         }
